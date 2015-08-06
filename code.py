@@ -208,7 +208,6 @@ sns.corrplot(df_corr, annot=False, sig_stars=False,
              diag_names=False, cmap=cmap, ax=ax)
 //#plotting actual data
 
-
 //#plotting large correlational matrix
 //#<matplotlib.axes._subplots.AxesSubplot at 0x10fde06d0>
 
@@ -487,7 +486,6 @@ fi_df.head()
 
 df.columns
 df.describe()
-
 
 
 //#index data archive http://archive.ics.uci.edu/ml/machine-learning-databases/00327/
