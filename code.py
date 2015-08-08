@@ -487,6 +487,17 @@ fi_df.head()
 df.columns
 df.describe()
 
+for x in ['knn 0.954397394137', 'svm 0.92996742671', 'nb 0.920195439739', 'lr 0.92671009772', 'rf 0.962540716612']:
+    print x
+
+//#access models, index, plot graph, specify tuple
+//#plt.plot(,scores, linewidth=3.0)
+
+ModelScore = (0.954397394137, 0.92996742671, 0.920195439739, 0.92671009772, 0.962540716612)
+print rf
+print ModelScore
+print x
+
 
 //#index data archive http://archive.ics.uci.edu/ml/machine-learning-databases/00327/
 
