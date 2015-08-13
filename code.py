@@ -359,6 +359,7 @@ plt.plot(n_neighbors, scores, linewidth=3.0)
 //#non-alphanumeric characters
 
 //#Modularizing
+//#function created for different models to iterate at same time, making code reusable
 knn = neighbors.KNeighborsClassifier(1)
 svc = svm.SVC(kernel='linear', probability=True)
 nb = GaussianNB()
