@@ -6,7 +6,6 @@ git push
 
 git diff
 
-
 git config --global color.ui auto
 
 archive
