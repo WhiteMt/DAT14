@@ -10,7 +10,7 @@ import re
 
 from sklearn.ensemble import RandomForestClassifier
 %matplotlib inline
-import seaborn as sns  
+import seaborn as sns
 from sklearn.linear_model import LogisticRegression
 from sklearn import svm
 from sklearn.naive_bayes import GaussianNB
